@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+  }
+  
+  .header-title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header__nav-item {
+    text-decoration: none;
+    color: #fff;
+    transition: color 250ms;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  .header__nav-item:hover {
+    color: #09456c
+  }
+  
+  .Dev {
+    color: #09456c;
+  }
+
+  img {
+    width: 450px;
+    margin: 0 110px;
+    border: 5px solid #09456c;
+  }
+
+  a:hover {
+    top: -7px;
+    box-shadow: 0 2px 2px #000000
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .projects {
+    text-align: center;
+    
+  }
+
+
+
+  .title-projects {
+    display: flex;
+    justify-content: center;
+      color: #fff;
+      font-family: 'Dosis', sans-serif;
+      font-size: 24px;  
+  }
+
+p {
+  margin: 0 125px;
+  margin-top: 10px;
+}
+
+
